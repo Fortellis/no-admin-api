@@ -1,2 +1,11 @@
 # no-admin-api
-This is an example of an API provider that does not user an admin API. Instead, the context of the API calls are retrieved at runtime
+
+Example app to demonstrate an API provider going through the subscription context flow. Instead of using an admin API, the context of the API calls are retrieved at runtime.
+
+## Running the app
+
+Add your provider credentials (client_id and client_secret) to config/config.json
+
+`npm install`
+
+`npm start`

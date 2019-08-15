@@ -1,0 +1,19 @@
+{
+  "name": "subscription-context-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@okta/jwt-verifier": "0.0.14",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  }
+}
