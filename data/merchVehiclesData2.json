@@ -1,0 +1,415 @@
+{
+    "totalPages": 1,
+    "totalItems": 2,
+    "links": {
+      "firstPage": {
+        "method": "GET",
+        "title": "Get the first page of results",
+        "href": "https://api.fortellis.io/sales/inventory/v0/merchandisable-vehicles?page=1&pageSize=20"
+      },
+      "nextPage": {
+        "method": "GET",
+        "title": "Get the first page of results",
+        "href": "https://api.fortellis.io/sales/inventory/v0/merchandisable-vehicles?page=4&pageSize=20"
+      },
+      "prevPage": {
+        "method": "GET",
+        "title": "Get the previous page of results",
+        "href": "https://api.fortellis.io/sales/inventory/v0/merchandisable-vehicles?page=2&pageSize=20"
+      }
+    },
+    "items": [
+      {
+        "summary": {
+          "videoCount": 0,
+          "lotAge": 141,
+          "price": {
+            "priceType": "SALE",
+            "netPrice": 22988,
+            "netTitle": "Sale price",
+            "currencyCode": "USD"
+          },
+          "stockStatus": "INSTOCK",
+          "type": "USED",
+          "primaryImageLink": {
+            "mediaTrackingId": "1Z6AG568H10",
+            "mediaType": "image/jpeg",
+            "href": "https://examples.fortellis.io/images/sales/explorer-white-1.jpg",
+            "source": "DEALER",
+            "title": "Explorer Main Photo",
+            "usage": "MAIN"
+          },
+          "thumbnailImageLink": {
+            "mediaTrackingId": "1Z6AG568H11",
+            "mediaType": "image/png",
+            "href": "https://examples.fortellis.io/images/sales/explorer-white-2.png",
+            "source": "DEALER",
+            "title": "Explorer Stock Thumbnail",
+            "usage": "THUMBNAIL"
+          },
+          "photoCount": 2,
+          "specCount": 3
+        },
+        "offers": [
+          {
+            "description": "Loyalty program for Ford owners",
+            "updatedDate": "2018-08-02T02:07:58Z",
+            "title": "Loyalty program",
+            "providerType": "DEALER",
+            "expiryDate": "2025-01-20",
+            "offerType": "LOYALTY",
+            "createdDate": "2017-01-19T20:30:39Z",
+            "rate": 0.6,
+            "grossValue": 500,
+            "downPayment": {
+              "currencyCode": "USD",
+              "grossValue": 5000
+            },
+            "offerId": "71f5d653-c0cf-428c-9cda-36c39b60bfc3",
+            "term": 48,
+            "currencyCode": "USD",
+            "disclaimer": "Must own a Ford car newer than 2010",
+            "startDate": "2017-01-20"
+          }
+        ],
+        "technical": {
+          "bodyType": "SUV",
+          "transmissionType": "AUTO",
+          "economy": {
+            "unit": "MPG",
+            "combined": 20,
+            "highway": 22,
+            "city": 16
+          },
+          "drivetrainType": "AWD",
+          "engine": {
+            "description": "3.5L 6cyl Turbo 6A",
+            "displacement": {
+              "value": 3.5,
+              "unit": "LITER"
+            },
+            "fuelType": "GASOLINE",
+            "cylinders": 6
+          }
+        },
+        "description": {
+          "interiorColor": "Black",
+          "exteriorColor": "White",
+          "variant": "XLT",
+          "description": "Ford Explorer XLT 2014",
+          "salesDescription": "Ford Explorer XLT 2014 4WD with stability control and mobile internet",
+          "model": "Explorer",
+          "modelYear": "2014",
+          "class": "CAR",
+          "make": "Ford"
+        },
+        "dates": {
+          "registrationDate": "2014-01-20",
+          "firstRegistrationDate": "2014-01-30"
+        },
+        "media": [
+          {
+            "mediaTrackingId": "1Z6AG568H10",
+            "mediaType": "image/jpeg",
+            "href": "https://examples.fortellis.io/images/sales/explorer-white-1.jpg",
+            "source": "DEALER",
+            "title": "Explorer Main Photo",
+            "usage": "MAIN"
+          },
+          {
+            "mediaTrackingId": "1Z6AG568H11",
+            "mediaType": "image/png",
+            "href": "https://examples.fortellis.io/images/sales/explorer-white-2.png",
+            "source": "DEALER",
+            "title": "Explorer Stock Thumbnail",
+            "usage": "THUMBNAIL"
+          }
+        ],
+        "reference": {
+          "exteriorColorCode": "WHITE",
+          "variantCode": "XLT",
+          "providerId": "FORDUSA",
+          "modelCode": "EXPLORER",
+          "interiorColorCode": "BLACK",
+          "makeCode": "FORD",
+          "vehicleCode": "K123-1J4HR58N96C336690"
+        },
+        "features": [
+          {
+            "type": "INTERIOR",
+            "description": "Leather seats",
+            "label": "Interior"
+          },
+          {
+            "type": "INTERIOR",
+            "description": "Upgraded in-car entertainment",
+            "label": "Interior"
+          },
+          {
+            "type": "EXTERIOR",
+            "description": "20 inch wheels",
+            "label": "Exterior"
+          }
+        ],
+        "identification": {
+          "registrationId": {
+            "countryCode": "US",
+            "licensePlate": "1ABC234",
+            "subdivisionCode": "CA"
+          },
+          "vin": "1J4HR58N96C336690",
+          "chassis": "14514A1B123",
+          "inventoryVehicleId": "e099bd80-f246-435f-8363-2aa277720c82",
+          "engineNumber": "1FM5K8HT5HGB28123"
+        },
+        "dealer": {
+          "name": "Test Dealer",
+          "physicalAddress": {
+            "buildingName": "Example building",
+            "streetName": "The example road",
+            "province": "Province or state if available",
+            "doorNumber": 0,
+            "blockName": "This block",
+            "city": "This city",
+            "countryCode": "US",
+            "postalCode": "IL12234",
+            "houseNumber": 110,
+            "floorNumber": 0,
+            "county": "Example county",
+            "suburb": "Outside the city"
+          },
+          "code": "DEMO",
+          "phone": "(800) 909-8244",
+          "geoLocation": {
+            "latitude": 36.131128,
+            "longitude": -115.151119
+          }
+        },
+        "links": {
+          "self": {
+            "method": "GET",
+            "title": "Ford Explorer XLT 2014 (1ABC234)",
+            "href": "https://api.fortellis.io/sales/inventory/v0/merchandisable-vehicles/fe09as90-a213-543d-2165-4da287631b19"
+          }
+        },
+        "prices": [
+          {
+            "priceType": "MSRP",
+            "netPrice": 24000,
+            "netTitle": "MSRP",
+            "featured": false,
+            "currencyCode": "USD",
+            "basePrice": true
+          },
+          {
+            "priceType": "SALE",
+            "netPrice": 22988,
+            "netTitle": "Sale price",
+            "featured": true,
+            "currencyCode": "USD"
+          }
+        ],
+        "merchandisableVehicleId": "fe09as90-a213-543d-2165-4da287631b19",
+        "mileage": {
+          "value": 18000,
+          "unit": "MILES"
+        }
+      },
+      {
+        "summary": {
+          "videoCount": 0,
+          "lotAge": 25,
+          "price": {
+            "priceType": "SALE",
+            "netPrice": 27585.18,
+            "netTitle": "Sale price",
+            "currencyCode": "USD"
+          },
+          "stockStatus": "INSTOCK",
+          "type": "USED",
+          "primaryImageLink": {
+            "mediaTrackingId": "1Z6AG568H10",
+            "mediaType": "image/jpeg",
+            "href": "https://examples.fortellis.io/images/sales/explorer-black-1.jpg",
+            "source": "DEALER",
+            "title": "Explorer Main Stock Photo",
+            "usage": "MAIN"
+          },
+          "thumbnailImageLink": {
+            "mediaTrackingId": "1Z6AG568H11",
+            "mediaType": "image/jpeg",
+            "href": "https://examples.fortellis.io/images/sales/explorer-black-2.jpg",
+            "source": "DEALER",
+            "title": "Explorer Stock Thumbnail",
+            "usage": "THUMBNAIL"
+          },
+          "photoCount": 2,
+          "specCount": 3
+        },
+        "offers": [
+          {
+            "description": "Loyalty program for Ford owners",
+            "updatedDate": "2018-08-02T02:07:58Z",
+            "title": "Loyalty program",
+            "providerType": "DEALER",
+            "expiryDate": "2025-01-20",
+            "offerType": "LOYALTY",
+            "createdDate": "2017-01-19T20:30:39Z",
+            "rate": 0.6,
+            "grossValue": 500,
+            "downPayment": {
+              "currencyCode": "USD",
+              "grossValue": 5000
+            },
+            "offerId": "71f5d653-c0cf-428c-9cda-36c39b60bfc3",
+            "term": 48,
+            "currencyCode": "USD",
+            "disclaimer": "Must own a Ford car newer than 2010",
+            "startDate": "2017-01-20"
+          }
+        ],
+        "technical": {
+          "bodyType": "SUV",
+          "transmissionType": "AUTO",
+          "economy": {
+            "unit": "MPG",
+            "combined": 20,
+            "highway": 22,
+            "city": 16
+          },
+          "drivetrainType": "AWD",
+          "engine": {
+            "description": "3.5L 6cyl Turbo 6A",
+            "displacement": {
+              "value": 3.5,
+              "unit": "LITER"
+            },
+            "fuelType": "GASOLINE",
+            "cylinders": 6
+          }
+        },
+        "description": {
+          "interiorColor": "Black",
+          "exteriorColor": "White",
+          "variant": "XLT",
+          "description": "Ford Explorer XLT 2014",
+          "salesDescription": "Ford Explorer XLT 2014 4WD with bluetooth connectivity and navigation",
+          "model": "Explorer",
+          "modelYear": "2014",
+          "class": "CAR",
+          "make": "Ford"
+        },
+        "dates": {
+          "registrationDate": "2014-11-03",
+          "firstRegistrationDate": "2014-11-05"
+        },
+        "media": [
+          {
+            "mediaTrackingId": "1Z6AG568H10",
+            "mediaType": "image/jpeg",
+            "href": "https://examples.fortellis.io/images/sales/explorer-black-1.jpg",
+            "source": "DEALER",
+            "title": "Explorer Main Stock Photo",
+            "usage": "MAIN"
+          },
+          {
+            "mediaTrackingId": "1Z6AG568H11",
+            "mediaType": "image/jpeg",
+            "href": "https://examples.fortellis.io/images/sales/explorer-black-2.jpg",
+            "source": "DEALER",
+            "title": "Explorer Stock Thumbnail",
+            "usage": "THUMBNAIL"
+          }
+        ],
+        "reference": {
+          "exteriorColorCode": "BLACK",
+          "variantCode": "XLT",
+          "providerId": "FORDUSA",
+          "modelCode": "EXPLORER",
+          "interiorColorCode": "BLACK",
+          "makeCode": "FORD",
+          "vehicleCode": "K123-1J4HR58N96C336690"
+        },
+        "features": [
+          {
+            "type": "INTERIOR",
+            "description": "Leather seats",
+            "label": "Interior"
+          },
+          {
+            "type": "INTERIOR",
+            "description": "Head-up display",
+            "label": "Interior"
+          },
+          {
+            "type": "EXTERIOR",
+            "description": "19 inch wheels",
+            "label": "Exterior"
+          }
+        ],
+        "identification": {
+          "registrationId": {
+            "countryCode": "US",
+            "licensePlate": "1CBA4321",
+            "subdivisionCode": "CA"
+          },
+          "vin": "1J4HR58N96C336660",
+          "chassis": "14514B1B123",
+          "inventoryVehicleId": "97311c11-d315-41af-bc7c-f232d2bf8597",
+          "engineNumber": "1FM5K8HT5HGB28321"
+        },
+        "dealer": {
+          "name": "Test Dealer",
+          "physicalAddress": {
+            "buildingName": "Example building",
+            "streetName": "The example road",
+            "province": "Province or state if available",
+            "doorNumber": 0,
+            "blockName": "This block",
+            "city": "This city",
+            "countryCode": "US",
+            "postalCode": "IL12234",
+            "houseNumber": 110,
+            "floorNumber": 0,
+            "county": "Example county",
+            "suburb": "Outside the city"
+          },
+          "code": "DEMO",
+          "phone": "(800) 909-8244",
+          "geoLocation": {
+            "latitude": 36.131128,
+            "longitude": -115.151119
+          }
+        },
+        "links": {
+          "self": {
+            "method": "GET",
+            "title": "Ford Explorer XLT 2014 (1CBA4321)",
+            "href": "https://api.fortellis.io/sales/inventory/v0/merchandisable-vehicles/f129as90-f213-543d-2165-4da287731a21"
+          }
+        },
+        "prices": [
+          {
+            "priceType": "MSRP",
+            "netPrice": 28000,
+            "netTitle": "MSRP",
+            "featured": false,
+            "currencyCode": "USD",
+            "basePrice": true
+          },
+          {
+            "priceType": "SALE",
+            "netPrice": 27585.18,
+            "netTitle": "Sale price",
+            "featured": true,
+            "currencyCode": "USD"
+          }
+        ],
+        "merchandisableVehicleId": "f129as90-f213-543d-2165-4da287731a21",
+        "mileage": {
+          "value": 16000,
+          "unit": "MILES"
+        }
+      }
+    ]
+  }

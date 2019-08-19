@@ -1,0 +1,9 @@
+{
+  "oauth_url": "https://verify.fortellis.io/oauth2",
+  "accounts_url": "https://api.accounts.fortellis.io/oauth2/aus1ufzl27tS4FQ9X2p7/v2/token",
+  "subscription_url": "https://subscriptions.fortellis.io/subscriptions",
+  "credentials": {
+    "client_id": "YOUR_CLIENT_ID",
+    "client_secret": "YOUR_CLIENT_SECRET"
+  }
+}
